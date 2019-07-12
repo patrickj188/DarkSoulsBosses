@@ -1,0 +1,30 @@
+[
+    {
+    "id": 1,
+    "name": "Sif",
+    "info": "According to lore, Sif was Artorias the Abysswalker's partner. When Artorias was swallowed by the Abyss, he threw up his Greatshield to protect Sif, as he could no longer. Now, he guards his fallen comrade's grave and his ring, to ensure that what happened to Artorias, doesn't happen to anyone else......One of the best bois",
+    "souls": "40,000 souls",
+    "img": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/great_grey_wolf_sif_snarl.jpg?v=1529435473483"
+    },
+    {
+        "id": 2,
+        "name": "Knight Artorias",
+        "info": "Sir Knight Artorias was one of the four Knights of Gwyn, the commanding knights of Lord Gwyn's army. Artorias had an unbendable will of steel, which both helped, and fed, his hatred for servants of the Dark, particularly the Darkwraiths of Kaathe.",
+        "souls": "25,000 souls",
+        "img": "https://vignette.wikia.nocookie.net/darksouls/images/8/85/Knight_Artorias.jpg/revision/latest?cb=20160705014826"
+    },
+    {
+        "id": 3,
+        "name": "Bed of Chaos",
+        "info": "In a futile attempt to prolong the Age of Fire, the Witch of Izalith tried to recreate the First Flame. The ritual was a failure and its power formed a bed of life which would become the source of all demons; trapping two of her daughters in the orbs on either side, and herself within it.",
+        "souls": "60,000 Souls",
+        "img": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/bed_of_chaos_final_form_broom_smash.jpg?v=1528746587812"
+    },
+    {
+        "id": 4,
+        "name": "Ceaseless Discharge",
+        "info": "Not only an imposing fire-based boss found in the Demon Ruins, Ceaseless Discharge, as his name may suggest, is the source of the lava flow. Killing him will cease the discharge of lava in the lower parts of the ruins, allowing access to the deeper areas of the map, and progress in the campaign. ",
+        "souls": "20,000 Souls",
+        "img": "https://images-cdn.9gag.com/photo/aqbYPyP_700b.jpg"
+    }
+]
