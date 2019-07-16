@@ -1,0 +1,25 @@
+{
+  "name": "darksoulsbosses",
+  "version": "1.0.0",
+  "description": "WebPage showing all of DarkSouls 1 bosses",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickj188/DarkSoulsBosses.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickj188/DarkSoulsBosses/issues"
+  },
+  "homepage": "https://github.com/patrickj188/DarkSoulsBosses#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
