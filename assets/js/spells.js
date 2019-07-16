@@ -19,6 +19,7 @@ fetch("http://localhost:3008/spells", {
     return console.log(err);
   });
 
+
 let displaySpells = spells => {
   spells.forEach(spell => {
     let spellNode = document.createElement("div");
@@ -26,10 +27,12 @@ let displaySpells = spells => {
     document.getElementById("spell-body").appendChild(spellNode);
     let spellTemplate =
       `<header> ` +
-      `<h1> ${spell.name} </h1> </header>` +
+      `<h1 >${spell.name} </h1> </header>` +
       `<p> ${spell.spell_type} </p>` +
-      `<h3>${spell.slots}</h3>`;
+      `<h3> Slots: ${spell.slots}</h3>`;
 
     spellNode.insertAdjacentHTML("beforeend", spellTemplate);
   });
 };
+
+
