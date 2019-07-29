@@ -28,9 +28,10 @@ let displaySpells = spells => {
     let spellTemplate =
       `<header> ` +
       `<h1 >${spell.name} </h1> </header>` +
-      `<p> ${spell.spell_type} </p>` +
-      `<h3> Slots: ${spell.slots}</h3>`;
-
+      `<h3> Type: ${spell.spell_type} </h3>` +
+      `<div class="slots"><h6> Faith: ${spell.faith_req} </h6>` +
+      `<h6>Intelligence: ${spell.int_req} </h6>` +
+      `<h6> Slots: ${spell.slots}</h6></div>` ;
     spellNode.insertAdjacentHTML("beforeend", spellTemplate);
   });
 };

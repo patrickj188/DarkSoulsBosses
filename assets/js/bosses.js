@@ -180,8 +180,6 @@ let bossInfo = () => {
 
         bossNode.insertAdjacentHTML('beforeend', bossTemplate)
     })
-
-
 }
 
 bossInfo();

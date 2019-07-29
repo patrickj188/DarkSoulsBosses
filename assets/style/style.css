@@ -440,13 +440,79 @@ header img {
 /* SPELLS SPECIFIC */
 
 div.spell-card {
-  border: 1px black solid;
   padding-left: 20px;
   padding-top: 10px;
   margin: 10px;
   text-transform: capitalize;
+  width: 20%;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+div.spell-card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#spell-body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#spell-body h3{
+margin: 0;
+}
+.slots{
+  display: -webkit-inline-box;
+  margin: 0;
+}
+.slots h6{
+  padding: 10px;
+  text-align: center;
+
 }
 
 #spell-body.p {
+  text-transform: capitalize;
+}
+
+/* weapons css */
+
+div.weapon-card {
+  padding-left: 20px;
+  padding-top: 10px;
+  margin: 10px;
+  text-transform: capitalize;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+div.weapon-card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+div.weapon-card h1{
+  font-size: 25px;
+}
+div.weapon-card h5{
+  margin: 0;
+}
+
+#weapon-body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.weapon-req{
+  display: -webkit-inline-box;
+  margin: 0;
+}
+
+.weapon-req p{
+  padding: 10px;
+  text-align: center;
   text-transform: capitalize;
 }
