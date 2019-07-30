@@ -2,10 +2,12 @@
   "name": "darksoulsbosses",
   "version": "1.0.0",
   "description": "WebPage showing all of DarkSouls 1 bosses",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js",
+    "deploy": "now --public"
+    
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "next": "^9.0.2",
     "request": "^2.88.0"
   }
 }

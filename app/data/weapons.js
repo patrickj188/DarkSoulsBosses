@@ -1,6 +1,6 @@
 var w;
 
-fetch("http://localhost:3008/weapons", {
+fetch("https://darksoulsbosses.patrickj188.now.sh/weapons", {
     method: "GET",
     mode: "cors",
     headers: {

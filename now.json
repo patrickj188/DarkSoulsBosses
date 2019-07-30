@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "*.js",
+            "use": "@now/node-server"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/index.html"
+          },
+        {
+          "src": "/weapons",
+          "dest": "./app/public/weapons.html"
+        },
+        {
+          "src": "/spells",
+          "dest": "./app/public/spells.html"
+        },
+        {
+            "src": "/bosses",
+            "dest": "./app/public/bosses.html"
+          }
+      ]
+}
