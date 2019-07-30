@@ -1,6 +1,6 @@
 var w;
 
-fetch("http://localhost:3008/spells", {
+fetch("https://patrickj188.github.io/DarkSoulsBosses/assets/html/spells.html", {
   method: "GET",
   mode: "cors",
   headers: {
