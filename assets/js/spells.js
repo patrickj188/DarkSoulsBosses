@@ -1,6 +1,6 @@
 var w;
 
-fetch("https://patrickj188.github.io/DarkSoulsBosses/assets/html/", {
+fetch("https://patrickj188.github.io/DarkSoulsBosses/assets/html/spells", {
   method: "GET",
   mode: "cors",
   headers: {
