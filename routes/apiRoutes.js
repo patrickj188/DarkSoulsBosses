@@ -28,7 +28,7 @@ request(weaponUrl, (err, response, body) =>{
   })
 });
 
-app.get('/spells.html', (req, res) =>{
+app.get('/spells', (req, res) =>{
 
     if(spellsArr.length > 0){
         return res.json(spellsArr)
