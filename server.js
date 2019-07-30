@@ -6,6 +6,6 @@ const cors = require('cors')
 
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
-require("./routes/apiRoutes")(app);
+require("./app/routes/apiRoutes")(app);
 
 app.listen(PORT);
