@@ -1,5 +1,3 @@
-var w;
-
 fetch("http://localhost:3008/spells", {
   method: "GET",
   mode: "cors",
@@ -13,12 +11,10 @@ fetch("http://localhost:3008/spells", {
   })
   .then(spells => {
     displaySpells(spells);
-    s = spells;
   })
   .catch(err => {
     return console.log(err);
   });
-
 
 let displaySpells = spells => {
   spells.forEach(spell => {
@@ -31,9 +27,7 @@ let displaySpells = spells => {
       `<h3> Type: ${spell.spell_type} </h3>` +
       `<div class="slots"><h6> Faith: ${spell.faith_req} </h6>` +
       `<h6>Intelligence: ${spell.int_req} </h6>` +
-      `<h6> Slots: ${spell.slots}</h6></div>` ;
+      `<h6> Slots: ${spell.slots}</h6></div>`;
     spellNode.insertAdjacentHTML("beforeend", spellTemplate);
   });
 };
-
-
