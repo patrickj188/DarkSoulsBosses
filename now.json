@@ -9,11 +9,12 @@
     "routes": [
         {
             "src": "/",
-            "dest": "/index.html"
+            "dest": "/"
           },
         {
           "src": "/weapons",
-          "dest": "./app/public/weapons.html"
+          "dest": "./app/public/weapons.html",
+          "methods": ["GET"]
         },
         {
           "src": "/spells",
